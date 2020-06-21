@@ -175,8 +175,7 @@ class _DetailsState extends State<Details> {
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
                   child: Text(
-                    'Amet ut eu quis eu minim aliqua ad ea deserunt exercitation tempor anim. Commodo ipsum ad ea excepteur cillum. Cillum ipsum laboris ex id sit irure amet amet adipisicing deserunt eiusmod eu ex.',
-                    style: theme.textTheme.headline2,
+                    'People connect better with stories than they do with a list of facts. If you want people to actually remember the information from your company profile, take the Zappos approach and tell a story about your brand. ',style: theme.textTheme.headline2,
                   ),
                 ),
               ),
@@ -184,8 +183,7 @@ class _DetailsState extends State<Details> {
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
                   child: Text(
-                    'Amet ut eu quis eu minim aliqua ad ea deserunt exercitation tempor anim. Commodo ipsum ad ea excepteur cillum. Cillum ipsum laboris ex id sit irure amet amet adipisicing deserunt eiusmod eu ex.',
-                    style: theme.textTheme.headline2,
+                    'This sounds easy, but when you consider how much Google has done and the hundreds of acquisitions and projects it has been involved in, it\'s hard to limit that to one page.',style: theme.textTheme.headline2,
                   ),
                 ),
               ),
@@ -193,8 +191,7 @@ class _DetailsState extends State<Details> {
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
                   child: Text(
-                    'Amet ut eu quis eu minim aliqua ad ea deserunt exercitation tempor anim. Commodo ipsum ad ea excepteur cillum. Cillum ipsum laboris ex id sit irure amet amet adipisicing deserunt eiusmod eu ex.',
-                    style: theme.textTheme.headline2,
+                    'It\'s also important to note that the company keeps the page dynamic and up-to-date including highlights from Q4. Most company profiles are static and left to gather dust, but Philips updates its at least four times a year.',style: theme.textTheme.headline2,
                   ),
                 ),
               ),
@@ -206,7 +203,7 @@ class _DetailsState extends State<Details> {
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
                   child: Text(
-                      'Sunt veniam amet dolore qui adipisicing veniam qui ipsum Lorem proident aliquip elit. Labore irure enim ea occaecat non laborum ex deserunt veniam cillum tempor. Ullamco dolore ut velit nulla. Eu elit sit elit fugiat eiusmod pariatur tempor et sit dolor. Duis incididunt sint reprehenderit ea in elit culpa reprehenderit duis et duis. Nisi incididunt enim aliquip aute dolore pariatur Lorem irure anim consequat sint anim mollit occaecat. Eu aute consequat ea irure ipsum tempor incididunt ullamco.Enim duis sunt dolore aute sunt ut labore incididunt nulla exercitation. Officia sint id ad laboris. Consequat eu esse nostrud amet amet consectetur aliqua ullamco eiusmod officia pariatur. Ullamco eu adipisicing esse quis. Pariatur exercitation Lorem elit et irure labore reprehenderit quis eiusmod minim velit. Pariatur do non aliquip ex anim.'),
+                      'I love this story on teamwork I heard the other day. I think you will agree it is powerful. Feel free to share with your teams. A team of about 35 employees had come together for a team building event. They were a young, bright and enthusiastic team.However, one big problem this team had was they wouldn’t share information or solutions with each other. The leader felt they were too focused on self and not enough on team.So she started off with a fun team activity that would allow her to teach the importance of each team member working together and sharing more.She brought the team into the cafeteria. All of the tables and chairs had been stacked and put away. Placed around the room were fun decorations and hundreds of different colored balloons.Everyone was excited, but not sure what it was all about. In the center of the room was a big box of balloons that had not been blown up yet.The team leader asked each person to pick a balloon, blow it up and write their name on it. But they were instructed to be careful because the balloon could pop!A few balloons did indeed pop and those members of the team were given another chance, but were told that if the balloon popped again they were out of the game.'),
                 ),
               ),
               Padding(

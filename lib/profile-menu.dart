@@ -70,7 +70,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
             padding: const EdgeInsets.all(15.0),
             child: Center(
                 child: Text(
-              'Yasin Ehsan',
+              'Rishav Raj Jain',
               style: TextStyle(
                   fontFamily: 'Typewriter',
                   fontSize: 20,
@@ -290,7 +290,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
 
   List<Job> findJobs() {
     List<Job> jobs = [];
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 3; i++) {
       jobs.add(Job(
           workTitle: 'Latch',
           workSubTitle: 'Seamless access to doors in modern building',
@@ -299,6 +299,14 @@ class _ProfileMenuState extends State<ProfileMenu> {
           moneyRaised: '\$ 22,000 raised',
           investors: '50 investors',
           days: '15 days left'));
+      jobs.add(Job(
+          workTitle: 'Stack',
+          workSubTitle: 'Entrepreneurs behind the entrepreneurs.',
+          workType: 'Investment',
+          companyLogo: AssetImage("lib/images/person.png"),
+          moneyRaised: '\$ 92,000 raised',
+          investors: '80 investors',
+          days: '20 days left'));
     }
     return jobs;
   }
