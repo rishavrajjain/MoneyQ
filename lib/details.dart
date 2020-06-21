@@ -282,8 +282,27 @@ class _DetailsState extends State<Details> {
                   children: <Widget>[
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                          'The graph below illustrated the valuation cap of Winc\'s pror rounds by year'),
+                      child: Column(
+                        children: <Widget>[
+                          Text(
+                              'The graph below illustrated the valuation cap of Winc\'s pror rounds by year'),
+                              CircularPercentIndicator(
+                              radius: 120.0,
+                              lineWidth: 13.0,
+                              animation: true,
+                              percent: 0.2,
+                              center: new Text(
+                                "20.0%",
+                                style: new TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20.0),
+                              ),
+                              
+                              circularStrokeCap: CircularStrokeCap.round,
+                              progressColor: Colors.cyan[200],
+                            ),
+                        ],
+                      ),
                     )
                   ],
                 ),
