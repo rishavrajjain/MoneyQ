@@ -241,8 +241,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
                       height: 180,
                       width: 170,
                       child: Image.network(
-                        "https://images.squarespace-cdn.com/content/55a8de09e4b0090a7a1ac6de/1547227750877-9UO6V492X8S6H7DF1610/Albourne_estate_wine%26Vermouth_product-photographer-0011.jpg?content-type=image%2Fjpeg",
-                        fit: BoxFit.cover,
+                        "https://media-exp1.licdn.com/dms/image/C4E0BAQGWIH3q2hWE5g/company-logo_200_200/0?e=2159024400&v=beta&t=d-4CevokYKWGnp7AYjiyzO7r4uOQQlMAtDiWx1QmXuY",fit: BoxFit.cover,
                       ),
                     ),
                   ),
