@@ -220,7 +220,7 @@ class _DetailsState extends State<Details> {
                 children: <Widget>[
                   buildFounderRow(name: 'Rishav Raj Jain',position: 'CEO, CO-FOUNDER'),
                   buildFounderRow(name: 'Sulbha Aggarwal',position: 'COO, CO-FOUNDER'),
-                  buildFounderRow(name: 'Heroine Chowdary',position: 'CTO, CO-FOUNDER'),
+                  buildFounderRow(name: 'Rupakshi Agg',position: 'CTO, CO-FOUNDER'),
                 ],
               ),
               Padding(
@@ -342,6 +342,8 @@ class _DetailsState extends State<Details> {
     );
   }
 }
+
+
 
 class FundraiseCard extends StatelessWidget {
   const FundraiseCard(
