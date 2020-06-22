@@ -1,0 +1,3 @@
+[submodule "Documents/Hackathon/defHacks/FundIt/Documents/Hackathon/defHacks/FundIt/SqaureAPI"]
+	path = Documents/Hackathon/defHacks/FundIt/Documents/Hackathon/defHacks/FundIt/SqaureAPI
+	url = https://github.com/square/in-app-payments-flutter-plugin.git
