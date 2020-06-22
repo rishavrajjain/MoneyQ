@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 //import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:small_b/details.dart';
+import 'package:small_b/profile2.dart';
 
 import 'job.dart';
 import 'liked.dart';
@@ -181,13 +182,18 @@ class _ProfileMenuState extends State<ProfileMenu> {
           ),
           Padding(
             padding: const EdgeInsets.all(18.0),
-            child: Text(
-              'What you liked',
-              style: TextStyle(
-                  fontFamily: 'Typewriter',
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600),
-            ),
+            child: Row(
+                  children: <Widget>[
+                    Text('What you Like', style: Theme.of(context).textTheme.headline3),
+                    SizedBox(width: 30),
+                    RaisedButton(onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ProfileMenu2()),
+                                ),
+                    child: Text('Highlights', style: Theme.of(context).textTheme.headline4))
+                  ],
+                ),
           ),
           Container(
             margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
@@ -290,24 +296,47 @@ class _ProfileMenuState extends State<ProfileMenu> {
 
   List<Job> findJobs() {
     List<Job> jobs = [];
-    for (int i = 0; i < 3; i++) {
       jobs.add(Job(
-          workTitle: 'Latch',
-          workSubTitle: 'Seamless access to doors in modern building',
+          workTitle: 'Change.org',
+          workSubTitle: 'create campaigns to mobilize supporters',
           workType: 'Hardware',
           companyLogo: AssetImage("lib/images/person.png"),
-          moneyRaised: '\$ 22,000 raised',
+          moneyRaised: '\$ 56,000 raised',
           investors: '50 investors',
           days: '15 days left'));
       jobs.add(Job(
-          workTitle: 'Stack',
-          workSubTitle: 'Entrepreneurs behind the entrepreneurs.',
+          workTitle: 'Crowdpac',
+          workSubTitle: 'Make it easy to understand the laws Congress',
           workType: 'Investment',
           companyLogo: AssetImage("lib/images/person.png"),
           moneyRaised: '\$ 92,000 raised',
           investors: '80 investors',
           days: '20 days left'));
-    }
+      jobs.add(Job(
+            workTitle: 'Vote.org',
+            workSubTitle: 'Build technology aimed at increasing voter turnout',
+            workType: 'Investment',
+            companyLogo: AssetImage("lib/images/person.png"),
+            moneyRaised: '\$ 1,00,000 raised',
+            investors: '4000 investors',
+            days: '22 days left'));
+
+      jobs.add(Job(
+          workTitle: 'Communication',
+          workSubTitle: 'Offer free, 24/7 text-message counseling',
+          workType: 'Investment',
+          companyLogo: AssetImage("lib/images/person.png"),
+          moneyRaised: '\$ 120,000 raised',
+          investors: '5830 investors',
+          days: '23 days left'));
+      jobs.add(Job(
+          workTitle: 'Pigeonly',
+          workSubTitle: 'Create affordable communication products',
+          workType: 'Investment',
+          companyLogo: AssetImage("lib/images/person.png"),
+          moneyRaised: '\$ 140,000 raised',
+          investors: '3762 investors',
+          days: '24 days left'));
     return jobs;
   }
 }
