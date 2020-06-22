@@ -181,12 +181,12 @@ class _ProfileMenuState extends State<ProfileMenu> {
             ],
           ),
           Padding(
-            padding: const EdgeInsets.all(18.0),
+            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
             child: Row(
                   children: <Widget>[
                     Text('What you Like', style: Theme.of(context).textTheme.headline3),
                     SizedBox(width: 30),
-                    RaisedButton(onPressed: () => Navigator.push(
+                    FlatButton(onPressed: () => Navigator.push(
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) => ProfileMenu2()),
@@ -196,7 +196,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
                 ),
           ),
           Container(
-            margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
+            margin: EdgeInsets.fromLTRB(0, 0, 0, 1),
             constraints: BoxConstraints.expand(height: 200),
             child: ListView(
                 padding: EdgeInsets.only(left: 40),

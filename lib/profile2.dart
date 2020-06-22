@@ -51,7 +51,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            
+            SizedBox(height: 25),
             
             Padding(
               padding: const EdgeInsets.fromLTRB(18, 15, 8, 10),
