@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 //import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:small_b/details.dart';
+import 'package:small_b/profile2.dart';
 
 import 'job.dart';
 import 'liked.dart';
@@ -181,13 +182,18 @@ class _ProfileMenuState extends State<ProfileMenu> {
           ),
           Padding(
             padding: const EdgeInsets.all(18.0),
-            child: Text(
-              'What you liked',
-              style: TextStyle(
-                  fontFamily: 'Typewriter',
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600),
-            ),
+            child: Row(
+                  children: <Widget>[
+                    Text('What you Like', style: Theme.of(context).textTheme.headline3),
+                    SizedBox(width: 30),
+                    RaisedButton(onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ProfileMenu2()),
+                                ),
+                    child: Text('Highlights', style: Theme.of(context).textTheme.headline4))
+                  ],
+                ),
           ),
           Container(
             margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
