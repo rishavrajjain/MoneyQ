@@ -240,8 +240,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
                       height: 180,
                       width: 170,
                       child: Image.network(
-                        "https://media-exp1.licdn.com/dms/image/C4E0BAQGWIH3q2hWE5g/company-logo_200_200/0?e=2159024400&v=beta&t=d-4CevokYKWGnp7AYjiyzO7r4uOQQlMAtDiWx1QmXuY",fit: BoxFit.cover,
-                      ),
+                        "https://cdn.filepicker.io/api/file/sU02HTjMQzsEY2ukg4RH" ),
                     ),
                   ),
                 )
