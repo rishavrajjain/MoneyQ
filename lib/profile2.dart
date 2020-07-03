@@ -147,7 +147,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
                       height: 180,
                       width: 170,
                       child: Image.network(
-                       "https://www.thebusinesswomanmedia.com/wp-content/uploads/2015/06/AR_SuitWide_P.jpg",fit: BoxFit.cover,
+                       "https://lh6.googleusercontent.com/proxy/5uvRhw0Qz7EbCZGkC4td2ihxie_pm3bg0Zu-DDtvpavHWtaJZejgdeWoDIRfi0uexy88uTzOGI2h_MrkGl2EKfrn-evXwQVF1fBUdzW-lloftR8",fit: BoxFit.cover,
                       ),
                     ),
                   ),
@@ -332,7 +332,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
                       height: 180,
                       width: 170,
                       child: Image.network(
-                        "https://trikaayhomoeopathy.com/images/savegril/save_child.jpg",fit: BoxFit.cover,
+                        "https://i.ytimg.com/vi/J9boSWf4wno/maxresdefault.jpg",fit: BoxFit.cover,
                       ),
                     ),
                   ),
