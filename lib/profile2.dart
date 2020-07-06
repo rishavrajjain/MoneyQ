@@ -56,7 +56,7 @@ class _ProfileMenu2State extends State<ProfileMenu2> {
             Padding(
               padding: const EdgeInsets.fromLTRB(18, 15, 8, 10),
               child: Text(
-                'What are you investing',
+                'Highlights',
                 style: TextStyle(
                     fontFamily: 'Typewriter',
                     fontSize: 20,

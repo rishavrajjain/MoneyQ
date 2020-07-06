@@ -61,7 +61,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
                   child: SizedBox(
                     width: 180,
                     height: 180,
-                    child: Image.asset("lib/images/person.png"),
+                    child: Image.asset("lib/images/rishav.png"),
                   ),
                 ),
               ),
@@ -300,7 +300,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
           workTitle: 'Change.org',
           workSubTitle: 'create campaigns to mobilize supporters',
           workType: 'Hardware',
-          companyLogo: AssetImage("lib/images/person.png"),
+          companyLogo: AssetImage("lib/images/rishav.png"),
           moneyRaised: '\$ 56,000 raised',
           investors: '50 investors',
           days: '15 days left'));
@@ -308,7 +308,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
           workTitle: 'Crowdpac',
           workSubTitle: 'Make it easy to understand the laws Congress',
           workType: 'Investment',
-          companyLogo: AssetImage("lib/images/person.png"),
+          companyLogo: AssetImage("lib/images/rishav.png"),
           moneyRaised: '\$ 92,000 raised',
           investors: '80 investors',
           days: '20 days left'));
@@ -316,7 +316,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
             workTitle: 'Vote.org',
             workSubTitle: 'Build technology aimed at increasing voter turnout',
             workType: 'Investment',
-            companyLogo: AssetImage("lib/images/person.png"),
+            companyLogo: AssetImage("lib/images/rishav.png"),
             moneyRaised: '\$ 1,00,000 raised',
             investors: '4000 investors',
             days: '22 days left'));
@@ -325,7 +325,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
           workTitle: 'Communication',
           workSubTitle: 'Offer free, 24/7 text-message counseling',
           workType: 'Investment',
-          companyLogo: AssetImage("lib/images/person.png"),
+          companyLogo: AssetImage("lib/images/rishav.png"),
           moneyRaised: '\$ 120,000 raised',
           investors: '5830 investors',
           days: '23 days left'));
@@ -333,7 +333,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
           workTitle: 'Pigeonly',
           workSubTitle: 'Create affordable communication products',
           workType: 'Investment',
-          companyLogo: AssetImage("lib/images/person.png"),
+          companyLogo: AssetImage("lib/images/rishav.png"),
           moneyRaised: '\$ 140,000 raised',
           investors: '3762 investors',
           days: '24 days left'));
